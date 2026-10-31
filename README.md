@@ -17,6 +17,12 @@ Production (gunicorn):
 gunicorn app:app
 ```
 
+Tests (on the 300 BTC candles in `tests/sample_request.json`):
+```bash
+pip install -r requirements-dev.txt
+pytest
+```
+
 ---
 
 ## Endpoint
