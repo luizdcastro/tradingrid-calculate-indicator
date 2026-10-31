@@ -1,4 +1,4 @@
-# tradingrid_calculate_indicator
+# Tradingrid Indicators
 
 Feature engineering microservice for a PyTorch LSTM scalping model.  
 Receives raw OHLCV candle data and returns 76 normalised, dimensionless technical indicators ready for model input.
